@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M666.88 162.72L707.36 162.72L707.36 203.2L666.88 203.2z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1278.83 270.12L1320.69 270.12L1320.69 280.69L1278.83 280.69z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1093.58 20.6 a44.85 44.85 0 1 0 89.7 0 a44.85 44.85 0 1 0 -89.7 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1187.26 472.27L1189.2 472.27L1189.2 526.5L1187.26 526.5z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M759.85 496.49 a49.34 49.34 0 1 0 98.68 0 a49.34 49.34 0 1 0 -98.68 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M15.5 512.52a48.03 48.03 0 1 0 26.29 92.39z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M250.16 143.74L285.97 143.74L285.97 179.55L250.16 179.55z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M662.43 202.41L712.97 202.41L712.97 254.96L662.43 254.96z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1165.82 371.96a18.16 18.16 0 1 0-1.86-36.27z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M513.07 328.54L518.23 328.54L518.23 369.13L513.07 369.13z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M496.37 213.75a38.4 38.4 0 1 0 76.26-9.16z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M731.74 226.4L741.47 226.4L741.47 279.87L731.74 279.87z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M329.75 334.93 a47.62 47.62 0 1 0 95.24 0 a47.62 47.62 0 1 0 -95.24 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M291.25 120.06L338.58 120.06L338.58 167.39L291.25 167.39z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1375.8 109.43a23.98 23.98 0 1 0 44.64-17.54z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M906.76 56.38 a16.36 16.36 0 1 0 32.72 0 a16.36 16.36 0 1 0 -32.72 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M651.02 380.43L678.36 380.43L678.36 387.84L651.02 387.84z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1026.76 316.57a22 22 0 1 0 11.23-42.54z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1129.03 512.55 a11.07 11.07 0 1 0 22.14 0 a11.07 11.07 0 1 0 -22.14 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M608.11 3.74 a48.13 48.13 0 1 0 96.26 0 a48.13 48.13 0 1 0 -96.26 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M935.52 267.78 a52.97 52.97 0 1 0 105.94 0 a52.97 52.97 0 1 0 -105.94 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M424 126.69L431.01 126.69L431.01 179.44L424 179.44z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1062.68 486.33a54.83 54.83 0 1 0 68.24 85.84z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1162 216.56 a7.1 7.1 0 1 0 14.2 0 a7.1 7.1 0 1 0 -14.2 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M952.31 333.09L997.1 333.09L997.1 360.25L952.31 360.25z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M935.86 284.13L967.96 284.13L967.96 316.23L935.86 316.23z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1198.51 313.48L1242.2 313.48L1242.2 335.35L1198.51 335.35z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M309.77 149.78L362.47 149.78L362.47 180.21L309.77 180.21z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M561.08 92.49a10.47 10.47 0 1 0 17.6 11.34z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M157.45 142.9a38.51 38.51 0 1 0-71.27 29.2z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1432.83 487.1L1447.62 487.1L1447.62 501.89L1432.83 501.89z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1434.89 188.82L1465.8 188.82L1465.8 219.73L1434.89 219.73z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1197.77 171.17L1214.09 171.17L1214.09 187.49L1197.77 187.49z' stroke='%23d3b714'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+h2{
+    font-size: 30px;
+    font-family: cursive;
+    
+
+}
+textarea{
+    margin: 30px;
+    width: 300px;
+    height: 100px;
+    text-shadow: 5px 5px 5px black;
+    border: none;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+    
+}
